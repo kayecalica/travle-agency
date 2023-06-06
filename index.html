@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World! - Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5cee64dade.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+          <img src="./image/logo.png" alt="Company logo" class="logo">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>HELLO WORLD!</h1>
+            <p>"Discover The World, One Adventure at a Time!"</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <h3>Discover. Explore. Wander.</h3>
+            <p> Welcome to Hello World. We curate unforgettable 
+              journeys tailored to your desires. With our expertise and personalized
+              service, we handle every detail so you can focus on creating remarkable
+              memories. Let us guide you on an extraordinary adventure. Contact us today
+              and let your wanderlust take flight.</p>
+              <img src="image/img2.jpg" alt="Image 2" >
+              <img src="image/img3.jpg" alt="Image 3">
+              <img src="image/img4.jpg" alt="Image 4">
+
+        </div>
+    </section>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">WHY CHOOSE US?</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-plane"></i>
+            <h2>Personalized Trip Planning</h2>
+            <p> Our website offers personalized trip planning services,
+               allowing travelers to create customized itineraries based
+               on their preferences, interests, and budget.</p>
+               
+          </div>
+          <div>
+            <i class="fa-solid fa-map-location-dot"></i>
+            <h2>Comprehensive Destination Information</h2>
+            <p>Our website provides detailed guides and insights about travel
+              destinations, helping travelers make informed decisions and enhance
+              their travel experiences.</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <h2>Reliable Customer Support</h2>
+            <p>We provide reliable customer support through various channels, 
+              ensuring prompt assistance and resolving any travel-related concerns
+              or issues that may arise.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Hello World. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
